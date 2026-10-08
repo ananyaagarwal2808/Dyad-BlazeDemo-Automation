@@ -20,7 +20,7 @@ public final class DriverFactory {
         } else {
             ChromeOptions options = new ChromeOptions();
             if (Config.headless()) options.addArguments("--headless=new");
-            options.addArguments("--start-maximized");
+            options.addArguments("--start-maximized", "--incognito", "--disable-notifications");
             driver = new ChromeDriver(options);
         }
         DRIVER.set(driver);

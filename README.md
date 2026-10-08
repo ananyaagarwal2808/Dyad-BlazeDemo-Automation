@@ -133,15 +133,15 @@ Recommended incremental commits:
 ```text
 git init
 git add pom.xml testng.xml .gitignore
- git commit -m "Initialize Maven TestNG automation framework"
+git commit -m "Initialize Maven TestNG automation framework"
 git add src/test/java/com/dyad/parabank/utils src/test/resources
- git commit -m "Add WebDriver utilities logging and reporting"
+git commit -m "Add WebDriver utilities logging and reporting"
 git add src/test/java/com/dyad/parabank/pages
- git commit -m "Add ParaBank page objects for banking workflow"
+git commit -m "Add ParaBank page objects for banking workflow"
 git add src/test/java/com/dyad/parabank/tests
- git commit -m "Implement end-to-end fund transfer validation"
+git commit -m "Implement end-to-end fund transfer validation"
 git add README.md
- git commit -m "Add project documentation and execution instructions"
+git commit -m "Add project documentation and execution instructions"
 ```
 
 Then connect your GitHub repository and push:
