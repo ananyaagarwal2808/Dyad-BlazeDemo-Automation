@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class HomePage extends BasePage {
-    private final By departureCity = By.id("fromPort");
-    private final By destinationCity = By.id("toPort");
+    private final By departureCity = By.name("fromPort");
+    private final By destinationCity = By.name("toPort");
     private final By findFlightsButton = By.cssSelector("input[type='submit']");
 
     public HomePage(WebDriver driver) {
