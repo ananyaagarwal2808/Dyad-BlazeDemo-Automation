@@ -9,6 +9,7 @@ import com.dyad.parabank.pages.RegistrationPage;
 import com.dyad.parabank.pages.TransferFundsPage;
 import com.dyad.parabank.utils.BaseTest;
 import com.dyad.parabank.utils.DriverFactory;
+import com.dyad.parabank.utils.ReportManager;
 import com.dyad.parabank.utils.TestData;
 import com.dyad.parabank.utils.TestData.RegistrationData;
 import org.testng.Assert;
